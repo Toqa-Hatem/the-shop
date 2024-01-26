@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5vh;
+  font-weight: 300;
+  width: 100%;
+  font-size: 1vw;
+  background-color: #497174;
+  color: #f3eeea;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.138);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.nav1 i {
+  font-size: 1.3vw;
+  cursor: pointer;
+}
+.nav1 i:hover {
+  color: #eb6440;
+}
+.nav2 {
+  border-bottom: 1px solid rgba(51, 51, 51, 0.138);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+}
+.nav-links li {
+  list-style-type: none;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #113946;
+  transition: 0.3s ease;
+  margin-left: 20px;
+}
+.logo {
+  text-decoration: line-through whitesmoke;
+}
+.nav-links a:hover {
+  text-decoration: line-through whitesmoke;
+}
+.nav-links i:hover {
+  color: #eb6440;
+}
+.nav2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #113946;
+}
+.home {
+  height: auto;
+  width: 95%;
+  margin: 2%;
+  border-radius: 20px;
+  font-size: 1.5vw;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+#slideshow-container {
+  position: relative;
+  max-width: 100%;
+}
+img {
+  border-radius: 10px;
+  display: block;
+  width: 30%;
+  height: 90%;
+  float: right;
+}
+.mySlides {
+  width: 30%;
+  height: 90%;
+  float: right;
+}
+.mySlides img {
+  width: 100%;
+  border-radius: 10px;
+  height: auto;
+}
+.p1 {
+  font-size: 2.2vw;
+  padding-top: 5%;
+  color: #913d26;
+  margin: 3% 3% 0 7%;
+  font-weight: bold;
+}
+span {
+  font-size: 2.7vw;
+}
+.p2 {
+  font-size: 2vw;
+  color: #113946;
+  margin: 1% 3% 3% 7%;
+  font-weight: bold;
+}
+.btn1 {
+  display: inline-block;
+  background-color: transparent;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  color: #113946;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  height: auto;
+  padding: 5px 8px 5px 8px;
+  width: auto;
+  font: 1.5vw bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn2 {
+  display: inline-block;
+  background-color: #497174;
+  color: whitesmoke;
+  margin-left: 1%;
+  margin-bottom: 5%;
+  padding: 10px 25px 10px 25px;
+  height: auto;
+  width: auto;
+  font: 1.6vw bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  transform: scale(0.9);
+}
+.btn2:hover {
+  background-color: #913d26;
+}
+.about {
+  height: auto;
+  width: 95%;
+  margin: 2%;
+  border-radius: 20px;
+  font-size: 1.5vw;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  letter-spacing: 1;
+}
+.about .h1 {
+  text-align: center;
+  color: #113946;
+  text-decoration: line-through whitesmoke;
+  padding-top: 50px;
+}
+.about p {
+  margin-left: 23%;
+  font-size: 1.6vw;
+  color: #497174;
+  line-height: 38px;
+  margin-top: 10px;
+  padding-bottom: 7%;
+}
+.about p span {
+  color: #913d26;
+  font-size: 1.8vw;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #497174;
+  color: #113946;
+  width: 100%;
+  margin: 100px 0 10px 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 5px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.footer {
+  font-size: 1.7vw;
+  color: #113946;
+}
+#pOne a {
+  color: rgba(245, 245, 245, 0.468);
+  font-size: 1vw;
+  text-decoration: none;
+}
+#pone {
+  padding-bottom: 10px;
+}
+#pOne a:hover {
+  color: #913d26;
+}
+hr {
+  width: 40%;
+  border: 1px dotted #113946;
+}
+.copy {
+  margin-left: 45%;
+  color: #497174;
+  font-size: 1.2vw;
+}
+.q-cart {
+  position: relative;
+  top: -.7vw;
+  right: -1.5vw;
+  background-color: red;
+  width: .5vw;
+  height: auto;
+  text-align: center;
+ color: white;
+ font-weight: bolder;
+ cursor: pointer;
+ font-size: .5vw;
+}

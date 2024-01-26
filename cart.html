@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Khaled, Toqa, Mohamed" />
+    <meta name="description" content="the website to" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/cart.css" />
+    <title>Shopping Cart</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav1" id="nav1">
+        <h2><i class="fa-solid fa-phone"></i>16115</h2>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <h2><i class="fa-solid fa-language"></i> &nbsp; language</h2>
+      </div>
+    </nav>
+
+    <div class="nav2">
+      <div class="logo">
+        <h1>The ShoOop</h1>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li>
+            <a href="home.html">Home</a>
+          </li>
+          <li>
+            <a href="products.html">Shop</a>
+          </li>
+          <li>
+            <a href="signin.html" id="login_link">signIn</a>
+          </li>
+
+          <li>
+            <a href="" id="display_link"><i class="fa-solid fa-user"></i></a>
+          </li>
+          <li>
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <p class="q-cart"></p>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div id="success"></div>
+    <div class="container">
+      <h1>Shopping Cart</h1>
+      <div id="cart-items"></div>
+      <p id="pr" style="text-align: center; font-size: 25px">
+        Total Price: $<span
+          style="font-size: 20px; opacity: 0.6"
+          id="cart-total"
+          >0.00</span
+        >
+      </p>
+      <button id="btn1" onclick="checkout()">Checkout</button>
+      <div class="checkout-modal" id="checkout-modal">
+        <div class="checkout-form">
+          <span class="close-btn" onclick="closeCheckoutModal()">&times;</span>
+          <h2>Checkout</h2>
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required />
+            <span id="err-form-name"></span>
+            <label for="address">Address:</label>
+            <textarea id="address" required></textarea>
+            <span class="err-form-address"></span>
+            <label for="card-number">Card Number:</label>
+            <input type="text" id="card-number" name="card-number" required />
+            <span class="err-form-card" id="err_span"
+              ><img src="" alt="" id="cardIcon"
+            /></span>
+
+            <label for="expiry-date">Expiry Date:</label>
+            <input type="text" id="expiry-date" placeholder="MM/YY" required />
+            <span class="err-form-Expiry"></span>
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" required />
+            <span class="err-form-cvv"></span>
+            <div id="err_div"></div>
+            <button type="submit" id="sub">Place Order</button>
+          </form>
+        </div>
+      </div>
+      <button id="clear-cart">Clear Cart</button>
+    </div>
+    <footer>
+      <p id="pOne">
+        <span class="footer">links :</span> <br />
+        <a href="home.html">home</a> <br />
+        <a href="products.html">Shop</a> <br />
+        <a href="signin.html">SignIn</a> <br />
+        <a href="display.html">Profile</a> <br />
+        <a href="cart.html">Cart</a>
+      </p>
+      <hr />
+      <p id="pOne">
+        <span class="footer">Contact :</span> <br />
+        <a href="">Facebook</a> <br />
+        <a href="">Twitter</a> <br />
+        <a href="">Instagram</a> <br />
+        <a href="">Twitter</a> <br />
+        <a href="">Call Us</a> <br />
+      </p>
+    </footer>
+
+    <p class="copy">TeamWork iti Php &copy;</p>
+    <script src="assets/js/sign.js"></script>
+    <script src="assets/js/cart.js"></script>
+    <script src="assets/js/purchase.js"></script>
+  </body>
+</html>

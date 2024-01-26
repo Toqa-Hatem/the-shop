@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.nav1  {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5vh;
+  font-weight: 300;
+  width: 100%;
+  font-size: 1vw;
+  background-color: #497174;
+  color: #F3EEEA;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.138);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.nav1 i {
+  font-size: 1.3vw;
+  cursor: pointer;
+}
+.nav1 i:hover{
+  color: #EB6440;
+}
+.nav2{
+  border-bottom: 1px solid rgba(51, 51, 51, 0.138);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+}
+.nav-links li {
+  list-style-type: none;
+}
+.nav-links a {
+  text-decoration: none;
+  color:#113946;
+  transition: 0.3s ease;
+}
+.logo{
+  text-decoration: line-through whitesmoke;
+}
+.nav-links a:hover {
+  text-decoration: line-through whitesmoke;
+}
+.nav-links i:hover{
+  color: #EB6440;
+}
+.nav2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #113946;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #497174;
+    color: #113946;
+    width: 100%;
+    margin: 100px 0  10px 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 5px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+  .footer {
+    font-size: 1.7vw;
+    color: #113946;
+  }
+  #pOne a{
+    color: rgba(245, 245, 245, 0.468);
+    font-size: 1vw;
+    text-decoration: none;
+  }
+  #pone{
+    padding-bottom: 10px;
+  }
+  #pOne a:hover{
+    color: #913d26;
+  }
+  hr{
+    width: 40%;
+    border: 1px dotted #113946;
+  }
+  .copy{
+    margin-left: 45%;
+    color: #497174;
+    font-size: 1.2vw;
+  }
+  .first{
+    margin-top: 0.5%;
+    height: auto;
+  width: auto;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+  .first input {
+margin-left: 20%;
+height: 5vh;
+max-width:  50vw;
+width: 100%;
+background-color: white;
+border: 1.5px solid #497174;
+border-radius: 10px;
+color: #497174;
+  }
+  input::placeholder{
+    font-size: 1vw;
+  text-align: center;
+   opacity: 0.7;
+  }
+  .fa-solid{
+    margin-left: -30px;
+  }
+  #categories{
+    font-size: 1.1vw;
+    text-align: center;
+     opacity: 0.7;
+     margin-top: 3px;
+     margin-bottom: 3px;
+margin-left: 3%;
+height: auto;
+padding: 10px 0 10px 0;
+width: 14vw;
+background-color: #113946;
+border: 1.5px solid #497174;
+border-radius: 10px;
+color: white;
+  }
+  .cards{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0  0px 30px;
+    padding: 40px 20px 40px 20px;
+    height: auto;
+    width: 27vw;
+    border-radius: 10px;
+    font-size: 1.2vw;
+    color: #913d26;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+ .img{
+  height: auto;
+  width: auto;
+ }
+  .cards img{
+    height:32vh;
+    width: 18vw;
+    margin-left: 15%;
+  }
+.category{
+  color: #113946;
+  font-size: 1vw;
+}
+.category h4{
+  float: right;
+  margin-top: 10px;
+}
+.description h2{
+  color: #113946;
+  font-size:1vw ;
+  margin-top: 10px;
+}
+.description p{
+  color: #497174;
+  font-size: 0.9vw;
+  margin-top : 20px;
+}
+.price h3{ 
+  float: right;
+}
+.quantity button{
+ background-color: #497174;
+ border: none;
+ margin-left: 10px;
+ margin-top: 7vh;
+ font-size: 1vw;
+ height: auto;
+ width: auto;
+ padding: 5px;
+ border-radius: 5px;
+ color: whitesmoke;
+}
+.quantity button:hover{
+  background-color: transparent;
+  color: #113946;
+  border: 1px solid #113946  ;
+}
+.quantity span{
+  margin-top: 8vh;
+  margin-left: 2vh;
+}
+.q-cart {
+  position: relative;
+  top: -.5vw;
+  right: 1vw;
+  background-color: red;
+  width: .5vw;
+  height: auto;
+  text-align: center;
+ color: white;
+ font-weight: bolder;
+ cursor: pointer;
+ font-size: .5vw;
+}
+
+.model {
+  position: fixed;
+  top: 25rem;
+  left: 40rem;
+  width: 30rem;
+  height: 15rem;
+  background-color: #497174;
+  z-index: 1;
+}
+.loginFirst{
+  font-size: 4rem;
+}
